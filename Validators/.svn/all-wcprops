@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/lamassau_wcl/!svn/ver/1/Validators
+END
+vssver2.scc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/lamassau_wcl/!svn/ver/1/Validators/vssver2.scc
+END
+RequiredIfValidator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/lamassau_wcl/!svn/ver/1/Validators/RequiredIfValidator.cs
+END
+MultipleFieldsValidator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/lamassau_wcl/!svn/ver/1/Validators/MultipleFieldsValidator.cs
+END

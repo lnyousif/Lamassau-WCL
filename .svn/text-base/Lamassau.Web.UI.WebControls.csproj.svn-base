@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0E912DBF-68AC-4B02-88BB-FAEEF641A44C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lamassau.Web.UI.WebControls</RootNamespace>
+    <AssemblyName>Lamassau.Web.UI.WebControls</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdRotator.cs" />
+    <Compile Include="Button.cs" />
+    <Compile Include="Calendar.cs" />
+    <Compile Include="CallBack.cs" />
+    <Compile Include="CheckBox.cs" />
+    <Compile Include="CheckBoxList.cs" />
+    <Compile Include="ClearBox.cs" />
+    <Compile Include="DataList.cs" />
+    <Compile Include="DatePicker.cs" />
+    <Compile Include="DropDownGridView.cs" />
+    <Compile Include="DropDownList.cs" />
+    <Compile Include="GridView.cs" />
+    <Compile Include="Helpers\ArchHelper.cs" />
+    <Compile Include="Helpers\GetSeletedItemTextEventArgs.cs" />
+    <Compile Include="Helpers\GridViewFilteringEventArgs.cs" />
+    <Compile Include="Helpers\TextBoxLabelIDConverter.cs" />
+    <Compile Include="Helpers\TypeHelper.cs" />
+    <Compile Include="Helpers\ValueTypes.cs" />
+    <Compile Include="Helpers\WebControlIDConverter.cs" />
+    <Compile Include="HyperLink.cs" />
+    <Compile Include="IArchControl.cs" />
+    <Compile Include="Image.cs" />
+    <Compile Include="ImageButton.cs" />
+    <Compile Include="Label.cs" />
+    <Compile Include="LinkButton.cs" />
+    <Compile Include="ListBox.cs" />
+    <Compile Include="MultiSelectionNode.cs" />
+    <Compile Include="Panel.cs" />
+    <Compile Include="PlaceHolder.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RadioButton.cs" />
+    <Compile Include="RadioButtonList.cs" />
+    <Compile Include="Repeater.cs" />
+    <Compile Include="Table.cs" />
+    <Compile Include="TextBox.cs" />
+    <Compile Include="ToolTip.cs" />
+    <Compile Include="Validators\MultipleFieldsValidator.cs" />
+    <Compile Include="Validators\RequiredIfValidator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\calendar.gif" />
+    <EmbeddedResource Include="Resources\Images\clear.gif" />
+    <EmbeddedResource Include="Resources\Images\clearover.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Images\details.gif" />
+    <EmbeddedResource Include="Resources\Images\drop.gif" />
+    <EmbeddedResource Include="Resources\Images\dropover.gif" />
+    <EmbeddedResource Include="Resources\Images\left.gif" />
+    <EmbeddedResource Include="Resources\Images\leftall.gif" />
+    <EmbeddedResource Include="Resources\Images\right.gif" />
+    <EmbeddedResource Include="Resources\Images\rightall.gif" />
+    <EmbeddedResource Include="Resources\Images\view.gif" />
+    <EmbeddedResource Include="Resources\Scripts\calendar.js" />
+    <EmbeddedResource Include="Resources\Scripts\clearbox.js" />
+    <EmbeddedResource Include="Resources\Scripts\collapsablepanel.js" />
+    <EmbeddedResource Include="Resources\Scripts\dropdowngrid.js" />
+    <EmbeddedResource Include="Resources\Scripts\multiselectionnode.js" />
+    <EmbeddedResource Include="Resources\Scripts\tooltip.js" />
+    <EmbeddedResource Include="Resources\Scripts\WebUIValidationExtended.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Helpers\vssver2.scc" />
+    <None Include="Validators\vssver2.scc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
