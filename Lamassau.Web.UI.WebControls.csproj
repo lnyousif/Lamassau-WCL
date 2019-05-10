@@ -69,7 +69,7 @@
     <Compile Include="Helpers\ValueTypes.cs" />
     <Compile Include="Helpers\WebControlIDConverter.cs" />
     <Compile Include="HyperLink.cs" />
-    <Compile Include="IControl.cs" />
+    <Compile Include="ILamassauControl.cs" />
     <Compile Include="Image.cs" />
     <Compile Include="ImageButton.cs" />
     <Compile Include="Label.cs" />
